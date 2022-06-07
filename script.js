@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
       displayMessage(
         guess > secretNumber
           ? 'Ten numer jest za wysoki... 🪜'
-          : 'Jeszcze za mało... 📉'
+          : 'Podany numer jest za niski... 📉'
       );
       score--;
       document.querySelector('.score').textContent = score;
